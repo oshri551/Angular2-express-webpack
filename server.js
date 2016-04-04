@@ -26,6 +26,7 @@ if(isDeveloping) {
         }
         
     })
+    /*Webapi before middleware otherwise it override this route*/
     app.use('/api', router);
     
     app.use(middleware);
