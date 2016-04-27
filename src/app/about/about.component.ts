@@ -17,9 +17,9 @@ console.log('`About` component loaded asynchronously');
   `],
   template: `
   <md-card>
-    <h1>
-      patrick@AngularClass.com
-    </h1>
+    <h4>
+      git@github.com:oshri551/Angular2-express-webpack.git
+    </h4>
   </md-card>
 
   `

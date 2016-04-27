@@ -65,10 +65,12 @@ import {RouterActive} from './router-active';
     <pre>this.appState.state = {{ appState.state | json }}</pre>
 
     <footer>
-      WebPack Angular 2 Starter by <a [href]="url">@AngularClass</a>
-      <div>
-        <img [src]="angularclassLogo" width="10%">
-      </div>
+      <md-toolbar color="primary">
+          <div>
+            <img [src]="angularclassLogo" width="10%">
+          </div>
+          WebPack Angular 2 <a [href]="url">@Github</a>
+      </md-toolbar>
     </footer>
   `
 })
@@ -80,8 +82,8 @@ import {RouterActive} from './router-active';
 ])
 export class App {
   angularclassLogo = 'assets/img/angularclass-avatar.png';
-  name = 'Angular 2 Webpack Starter';
-  url = 'https://twitter.com/AngularClass';
+  name = 'Angular 2 Webpack  ';
+  url = '';
 
   constructor(public appState: AppState) {}
 
